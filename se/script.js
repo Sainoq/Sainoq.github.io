@@ -176,7 +176,7 @@ function keyUpHandler(evt) {
 		"N: change noise\n" +
 		"O: place an obstacle at mouse position\n" +
 		"Numpad +: increase distance\n" +
-		"Numpad -: increase distance\n\n" +
+		"Numpad -: decrease distance\n\n" +
 		"Click and drag to create another serpentello\n" + 
 		"Click on a serpentello's head to delete it";
 		alert(helpString);
