@@ -177,7 +177,8 @@ function keyUpHandler(evt) {
 		"O: place an obstacle at mouse position\n" +
 		"Numpad +: increase distance\n" +
 		"Numpad -: increase distance\n\n" +
-		"Click and drag to create another serpentello";
+		"Click and drag to create another serpentello\n" + 
+		"Click on a serpentello's head to delete it";
 		alert(helpString);
     } else if(evt.keyCode == 78) { // N
 		// Place obstacle
